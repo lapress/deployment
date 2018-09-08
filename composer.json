@@ -1,0 +1,23 @@
+{
+    "name": "lapress/deployment",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Szczepanski",
+            "email": "sebastian@ably.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LaPress\\Deployment\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaPress\\Deployment\\DeploymentServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
